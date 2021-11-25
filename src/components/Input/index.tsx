@@ -13,7 +13,7 @@ import { IconBaseProps } from 'react-icons/lib';
 interface InputProps {
   name: string;
   icon?: React.ComponentType<IconBaseProps>;
-  size: number;
+  size?: number;
   placeholder?: string;
 }
 
